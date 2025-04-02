@@ -68,24 +68,14 @@
             >;
         };
 
-        extra1 {
-            display-name = "Red";
-            status = "reserved";
-        };
-
-        extra2 {
-            display-name = "Purple";
-            status = "reserved";
-        };
-
-        extra3 {
-            display-name = "Cyan";
-            status = "reserved";
-        };
-
-        extra4 {
-            display-name = "Yellow";
-            status = "reserved";
+        symbols {
+            bindings = <
+&trans  &trans  &trans  &trans          &trans                &trans  &trans                                      &trans  &trans                 &trans        &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp EQUAL       &kp PLUS              &trans  &trans                                      &trans  &kp MINUS              &kp ASTERISK  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp V         &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans                &trans                  &trans      &trans                  &trans                 &trans        &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans                        &trans  &trans  &trans      &trans  &trans  &trans                         &trans        &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
